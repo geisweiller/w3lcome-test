@@ -6,6 +6,7 @@ export default function Search() {
 
   return(
     <SearchBar
+      platform='default'
       searchIcon={{size: 30}}
       inputContainerStyle={styles.searchInput}
       containerStyle={styles.inputContainer}
